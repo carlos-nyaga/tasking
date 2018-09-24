@@ -17,7 +17,7 @@ setup(
         'Django >= 1.11, < 2.1',
         'python-dateutil',
         'djangorestframework',  # Adds Serializers and API support
-        'markdown',  # adds markdown support for browsable REST API
+        'markdown < 3',  # adds markdown support for browsable REST API
         'django-filter',  # for filtering in the API
         'djangorestframework-gis',  # for location model
         'django_countries',  # for location model
